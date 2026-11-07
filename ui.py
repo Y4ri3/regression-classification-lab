@@ -184,9 +184,9 @@ div[class*="st-key-card_"]:hover {{ transform: translateY(-3px); border-color: v
 .stApp [data-testid^="stBaseButton-secondary"] p, [data-testid="stDownloadButton"] button p {{ color: inherit !important; }}
 
 /* ---------- Sélecteur de thème ---------- */
-.st-key-theme_switch {{ position: fixed !important; top: 13px; right: 22px; z-index: 1000002; width: auto !important; }}
+.st-key-theme_switch {{ position: fixed !important; top: 13px; right: 150px; z-index: 1000002; width: auto !important; }}
 .st-key-theme_switch [data-testid="stButtonGroup"] {{ justify-content: flex-end; }}
-[data-testid="stTopNav"] {{ padding-right: 12rem; }}
+[data-testid="stTopNav"] {{ padding-right: 22rem; }}
 .st-key-theme_switch button {{ border-radius: 999px !important; padding: .25rem .85rem !important; min-height: 0 !important;
   background: transparent !important; border: 1px solid var(--border) !important; }}
 .st-key-theme_switch button p {{ font-family: var(--mono) !important; font-size: .7rem !important; letter-spacing: .1em;
